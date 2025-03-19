@@ -1,0 +1,57 @@
+# ==============================
+# Ignorar arquivos e binários do Go
+# ==============================
+*.exe
+*.out
+*.o
+*.a
+*.so
+*.dll
+*.dylib
+*.test
+bin/
+build/
+
+# Cache e pacotes do Go
+/go/pkg/
+/go/bin/
+go.sum
+go.work
+
+# ==============================
+# Ignorar arquivos do Terraform
+# ==============================
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+crash.log
+plan.out
+
+# ==============================
+# Ignorar credenciais e configurações locais
+# ==============================
+.env
+.envrc
+*.pem
+*.key
+*.crt
+*.pfx
+
+# ==============================
+# Ignorar logs e arquivos temporários
+# ==============================
+*.log
+debug/
+tmp/
+
+# ==============================
+# Ignorar arquivos de IDEs e editores
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.sublime-workspace
+*.sublime-project
