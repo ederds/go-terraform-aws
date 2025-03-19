@@ -12,11 +12,13 @@
 bin/
 build/
 
+
 # Cache e pacotes do Go
 /go/pkg/
 /go/bin/
 go.sum
 go.work
+.volume/
 
 # ==============================
 # Ignorar arquivos do Terraform
